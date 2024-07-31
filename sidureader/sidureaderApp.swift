@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct sidureaderApp: App {
+    @State private var bookTestData = BookTestData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookListView()
+                .environment(bookTestData)
         }
     }
 }

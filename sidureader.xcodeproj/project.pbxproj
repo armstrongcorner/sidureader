@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220935462C5789710076BC27 /* WifiUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220935452C5789710076BC27 /* WifiUploadView.swift */; };
+		220935492C5A51FA0076BC27 /* UIScreen+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220935482C5A51FA0076BC27 /* UIScreen+Size.swift */; };
+		22745C552C56489C00975470 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22745C542C56489C00975470 /* BookDetailView.swift */; };
 		22D3DF6D2C4BC3170073FB96 /* sidureaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF6C2C4BC3170073FB96 /* sidureaderApp.swift */; };
-		22D3DF6F2C4BC3170073FB96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF6E2C4BC3170073FB96 /* ContentView.swift */; };
+		22D3DF6F2C4BC3170073FB96 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF6E2C4BC3170073FB96 /* BookListView.swift */; };
 		22D3DF712C4BC3180073FB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D3DF702C4BC3180073FB96 /* Assets.xcassets */; };
 		22D3DF742C4BC3180073FB96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D3DF732C4BC3180073FB96 /* Preview Assets.xcassets */; };
+		22D3DF7E2C4BD1080073FB96 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF7D2C4BD1080073FB96 /* Book.swift */; };
+		22D3DF802C4C6A370073FB96 /* ModelUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF7F2C4C6A370073FB96 /* ModelUtil.swift */; };
+		22D3DF822C4CAA760073FB96 /* BookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3DF812C4CAA760073FB96 /* BookTest.swift */; };
+		E34A2518DD1A3625F59FBFAF /* Pods_sidureader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F07C862FFAE2D9F6E1972D1 /* Pods_sidureader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220935452C5789710076BC27 /* WifiUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiUploadView.swift; sourceTree = "<group>"; };
+		220935482C5A51FA0076BC27 /* UIScreen+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Size.swift"; sourceTree = "<group>"; };
+		22745C542C56489C00975470 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		22D3DF692C4BC3170073FB96 /* sidureader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidureader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D3DF6C2C4BC3170073FB96 /* sidureaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidureaderApp.swift; sourceTree = "<group>"; };
-		22D3DF6E2C4BC3170073FB96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22D3DF6E2C4BC3170073FB96 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		22D3DF702C4BC3180073FB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D3DF732C4BC3180073FB96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22D3DF7D2C4BD1080073FB96 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		22D3DF7F2C4C6A370073FB96 /* ModelUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUtil.swift; sourceTree = "<group>"; };
+		22D3DF812C4CAA760073FB96 /* BookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTest.swift; sourceTree = "<group>"; };
+		7FC71FA621C33C1F73EDC6B1 /* Pods-sidureader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sidureader.release.xcconfig"; path = "Target Support Files/Pods-sidureader/Pods-sidureader.release.xcconfig"; sourceTree = "<group>"; };
+		8F07C862FFAE2D9F6E1972D1 /* Pods_sidureader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sidureader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372041A51D81F058F177718 /* Pods-sidureader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sidureader.debug.xcconfig"; path = "Target Support Files/Pods-sidureader/Pods-sidureader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34A2518DD1A3625F59FBFAF /* Pods_sidureader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220935472C5A51CC0076BC27 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				220935482C5A51FA0076BC27 /* UIScreen+Size.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		22D3DF602C4BC3170073FB96 = {
 			isa = PBXGroup;
 			children = (
 				22D3DF6B2C4BC3170073FB96 /* sidureader */,
 				22D3DF6A2C4BC3170073FB96 /* Products */,
+				9626CAB894FD9DC53BF34690 /* Pods */,
+				8A52803D2A1E62A817F7EF3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +78,12 @@
 		22D3DF6B2C4BC3170073FB96 /* sidureader */ = {
 			isa = PBXGroup;
 			children = (
+				220935472C5A51CC0076BC27 /* extension */,
+				22D3DF7A2C4BCF1C0073FB96 /* Model */,
 				22D3DF6C2C4BC3170073FB96 /* sidureaderApp.swift */,
-				22D3DF6E2C4BC3170073FB96 /* ContentView.swift */,
+				22D3DF6E2C4BC3170073FB96 /* BookListView.swift */,
+				22745C542C56489C00975470 /* BookDetailView.swift */,
+				220935452C5789710076BC27 /* WifiUploadView.swift */,
 				22D3DF702C4BC3180073FB96 /* Assets.xcassets */,
 				22D3DF722C4BC3180073FB96 /* Preview Content */,
 			);
@@ -67,6 +98,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		22D3DF7A2C4BCF1C0073FB96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D3DF7D2C4BD1080073FB96 /* Book.swift */,
+				22D3DF812C4CAA760073FB96 /* BookTest.swift */,
+				22D3DF7F2C4C6A370073FB96 /* ModelUtil.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A52803D2A1E62A817F7EF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F07C862FFAE2D9F6E1972D1 /* Pods_sidureader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9626CAB894FD9DC53BF34690 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F372041A51D81F058F177718 /* Pods-sidureader.debug.xcconfig */,
+				7FC71FA621C33C1F73EDC6B1 /* Pods-sidureader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D3DF772C4BC3180073FB96 /* Build configuration list for PBXNativeTarget "sidureader" */;
 			buildPhases = (
+				70DF33B42BA8100583D05F06 /* [CP] Check Pods Manifest.lock */,
 				22D3DF652C4BC3170073FB96 /* Sources */,
 				22D3DF662C4BC3170073FB96 /* Frameworks */,
 				22D3DF672C4BC3170073FB96 /* Resources */,
+				CA4789959B976AA6D598E13A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +192,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70DF33B42BA8100583D05F06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sidureader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4789959B976AA6D598E13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sidureader/Pods-sidureader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sidureader/Pods-sidureader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sidureader/Pods-sidureader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22D3DF652C4BC3170073FB96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D3DF6F2C4BC3170073FB96 /* ContentView.swift in Sources */,
+				22D3DF6F2C4BC3170073FB96 /* BookListView.swift in Sources */,
+				22D3DF822C4CAA760073FB96 /* BookTest.swift in Sources */,
+				220935492C5A51FA0076BC27 /* UIScreen+Size.swift in Sources */,
+				22D3DF802C4C6A370073FB96 /* ModelUtil.swift in Sources */,
 				22D3DF6D2C4BC3170073FB96 /* sidureaderApp.swift in Sources */,
+				22745C552C56489C00975470 /* BookDetailView.swift in Sources */,
+				22D3DF7E2C4BD1080073FB96 /* Book.swift in Sources */,
+				220935462C5789710076BC27 /* WifiUploadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +374,7 @@
 		};
 		22D3DF782C4BC3180073FB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F372041A51D81F058F177718 /* Pods-sidureader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +383,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sidureader/Preview Content\"";
 				DEVELOPMENT_TEAM = DXL5PNKGFP;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,6 +405,7 @@
 		};
 		22D3DF792C4BC3180073FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC71FA621C33C1F73EDC6B1 /* Pods-sidureader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +414,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"sidureader/Preview Content\"";
 				DEVELOPMENT_TEAM = DXL5PNKGFP;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
